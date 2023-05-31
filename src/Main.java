@@ -84,14 +84,13 @@ public class Main {
         }
 
         public static void task10() {
-            System.out.println("Задача 10");
+            System.out.println("Задача 10d");
             int i = 1;
             int multiplication = 2;
-            int number = multiplication * i;
             int quantitativeIncrease = 1;
             int calculationlimit = 10;
             for (; i <= calculationlimit; i = i + quantitativeIncrease) {
-                System.out.println(multiplication + "*" + i + "=" + number);
+                System.out.println(multiplication + "*" + i + "=" + (multiplication * i));
             }
         }
 
